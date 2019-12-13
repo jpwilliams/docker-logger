@@ -3,6 +3,10 @@
 Output logs of all of your Docker containers. Verbose, but sometimes useful.
 
 ``` sh
+npm install --save @jpwilliams/docker-logger
+```
+
+``` sh
 $ docker-logger
 
 [great_nightingale : chentex/random-logger]     2019-12-13T16:40:21+0000 DEBUG first loop completed.

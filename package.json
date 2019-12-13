@@ -1,6 +1,6 @@
 {
   "name": "@jpwilliams/docker-logger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Output logs of all of your Docker containers. Verbose, but sometimes useful.",
   "main": "index.js",
   "scripts": {

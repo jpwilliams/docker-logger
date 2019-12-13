@@ -1,0 +1,35 @@
+{
+  "name": "@jpwilliams/docker-logger",
+  "version": "0.0.0",
+  "description": "Output logs of all of your Docker containers. Verbose, but sometimes useful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "docker-logger": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpwilliams/docker-logger.git"
+  },
+  "keywords": [
+    "docker",
+    "logger",
+    "logging",
+    "stdout",
+    "hose"
+  ],
+  "author": "Jack Williams <@jpwilliams>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpwilliams/docker-logger/issues"
+  },
+  "homepage": "https://github.com/jpwilliams/docker-logger#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "docker-loghose": "^1.6.5",
+    "string-to-color": "^2.1.1"
+  }
+}
